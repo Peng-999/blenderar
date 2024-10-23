@@ -1,0 +1,104 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="false" scrollx="20.000000000000455" scrolly="9" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="initSettings" id="ki{zo*_J-e3Od$bMlu7o" x="-10" y="-10">
+      <field name="LOAD_COMP_ASSETS">TRUE</field>
+      <field name="FULLSCREEN">FALSE</field>
+      <field name="BKG_TRANSPARENCY">TRUE</field>
+      <field name="PRESERVE_DRAW_BUF">FALSE</field>
+      <field name="FADE_ANNOTATIONS">TRUE</field>
+    </block>
+  </tab>
+  <tab name="Interface" type="CommonTab" active="true" scrollx="555.2491998895736" scrolly="259.4681995269715" scale="0.8999999999999999">
+    <block xmlns="https://developers.google.com/blockly/xml" type="createCSSRule" id="+K)xeBPtwdlySv5S|Y9~" x="-530" y="-130">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
+      <field name="PARENT">FALSE</field>
+      <value name="CSS_RULE">
+        <shadow type="text" id="QY,:Dl:J#gzt}8FMhfRZ">
+          <field name="TEXT">.enter-AR-button</field>
+        </shadow>
+      </value>
+      <value name="CSS_RULE_CONT">
+        <shadow type="cssStyleList" id="DX`0y|2#-@v.W=ao{qxf">
+          <mutation xmlns="http://www.w3.org/1999/xhtml">
+            <prop name="color" shadowvalue="red"></prop>
+          </mutation>
+          <value name="PROP0">
+            <shadow type="text" id="G(aU={jl70UP,`V#}QDd">
+              <field name="TEXT">red</field>
+            </shadow>
+          </value>
+        </shadow>
+      </value>
+      <next>
+        <block type="addHTMLElement" id="~txo;`!F;]w:0(Wj.]](">
+          <field name="ELEMENT">a</field>
+          <field name="MODE">TO</field>
+          <field name="PARENT">FALSE</field>
+          <value name="ID">
+            <shadow type="text" id="./%/KI$--eg*9G:VGYGl">
+              <field name="TEXT">enter_AR_button</field>
+            </shadow>
+          </value>
+          <value name="TARGET_ID">
+            <shadow type="DOMObjectSelector" id="z%(2/r.#{$,(%;mp5yM4">
+              <field name="DOM_OBJECT">CONTAINER</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="setHTMLElemAttribute" id="b1%LGd/b7EcoTU@fyPWJ">
+              <field name="ATTRIBUTE">className</field>
+              <field name="PARENT">FALSE</field>
+              <value name="VALUE">
+                <shadow type="text" id="Jj4)5|.ll9HJ-v;Bz9t9">
+                  <field name="TEXT">enter-AR-button</field>
+                </shadow>
+              </value>
+              <value name="ID">
+                <shadow type="text" id="QxWbk4L2XQ.~U`r5~uFs">
+                  <field name="TEXT">enter_AR_button</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="addHTMLElement" id="]Ri(?`}rv2qvkWftY``Y">
+                  <field name="ELEMENT">img</field>
+                  <field name="MODE">TO</field>
+                  <field name="PARENT">FALSE</field>
+                  <value name="ID">
+                    <shadow type="text" id="Nq#|yjA/MjvJY*F_(Y-N">
+                      <field name="TEXT">enter_AR_button.img</field>
+                    </shadow>
+                  </value>
+                  <value name="TARGET_ID">
+                    <shadow type="DOMObjectSelector" id=";ovOHC~fr+upSK3;;|~.">
+                      <field name="DOM_OBJECT">CONTAINER</field>
+                    </shadow>
+                    <block type="text" id="~l_7Ge[s}USE(Gtr:D,a">
+                      <field name="TEXT">enter_AR_button</field>
+                    </block>
+                  </value>
+                  <next>
+                    <block type="setHTMLElemAttribute" id="DUhWLX!4G;uFd|f`o3Y=">
+                      <field name="ATTRIBUTE">src</field>
+                      <field name="PARENT">FALSE</field>
+                      <value name="VALUE">
+                        <shadow type="text" id="$l+]8LQ)6Wk(4~v%BGQw">
+                          <field name="TEXT">media/enter_AR_button.png</field>
+                        </shadow>
+                      </value>
+                      <value name="ID">
+                        <shadow type="text" id="*UwgLcg0k[?R?!3Drid.">
+                          <field name="TEXT">enter_AR_button.img</field>
+                        </shadow>
+                      </value>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <editorsettings viewport-x="1000.4002319335937" viewport-y="37" viewport-w="517.6" viewport-h="351" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
